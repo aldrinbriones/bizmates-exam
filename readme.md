@@ -1,5 +1,6 @@
 # Bizmates Exam
    This project is written in laravel 5.7 and bootstrap 4
+
 # App Description
   A simple mobile friendly weather forcasting app specifically with the cities in Japan.
   Looking for current weather forecast for the city is quite easy just select city name in the list to know the current weather and there will be a highlight for the selected one for emphasis.
