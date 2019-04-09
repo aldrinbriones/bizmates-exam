@@ -24,7 +24,11 @@ class WeatherController extends Controller
         [ 'active' => '', 'name' => 'Nagoya']        
       ];      
       
-      $city = $city ? $city : 'tokyo';
+      $check = collect($places)->search(function($item) use ($city) {
+        return strtolower($item['name']) == strtolower($city);
+      });          
+
+      $city = $check === false ? 'tokyo' : $city;
 
       foreach($places as $key => $place){
         if(strtolower($place['name']) === strtolower($city)){
