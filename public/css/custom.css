@@ -1,0 +1,122 @@
+body {
+  font-family: Roboto,Arial,sans-serif!important;
+}
+
+.jumbotron {
+  border-radius: 0;
+  padding: 2rem 2rem 10rem;
+  background: #fff;
+}
+
+.navbar {
+  color: #fff;
+  padding: 2rem 2rem;  
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #000046, #1CB5E0);
+  background: linear-gradient(to right, #000046, #1CB5E0);
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+#cities {
+  margin-bottom: 20px;  
+}
+
+#cities a {
+  border: 1px solid #000046;
+  border-radius: 0;
+}
+
+#cities .active {
+  background: #d5dce8;  
+  font-weight: 700;
+  color: #000046;
+  text-transform: uppercase;
+}
+
+#cities .disabled {
+  cursor: default;
+  color: #fff;
+  font-weight: 600;
+  background: #000046;
+  background: -webkit-linear-gradient(to right, #000046, #1CB5E0);
+  background: linear-gradient(to right, #000046, #1CB5E0);  
+}
+
+.card, .card-body, .card-header {
+  border: 1px solid #000046;
+  border-radius: 0;  
+}
+
+.card-body, .card-header {
+  border: 0;  
+}
+
+.card-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.header {  
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0;
+  text-transform: uppercase;
+  background: #000046;
+  background: -webkit-linear-gradient(to left, #000046, #1CB5E0);
+  background: linear-gradient(to left, #000046, #1CB5E0);
+}
+
+.title {
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+.card-body {
+  padding-bottom: 45px;
+}
+
+.card-img, .card-header {
+  border-right: 1px solid #053177;
+  border-radius: 0 !important;
+}
+
+.forecast-header {
+  color: #000046;
+  border-bottom: 3px dotted #000046;
+}
+
+#forecast .h5, 
+#forecast h5,
+#forecast h4,
+#forecast .h4 {
+  font-size: 13px;
+} 
+
+#forecast p {
+  line-height: 0.5;
+}
+
+#forecast .card-body {
+  padding-bottom: 10px;
+}
+
+#forecast .card-header {
+  background: #1CB5E0;
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding: 1rem;
+  }
+  .navbar-brand { 
+    font-size: 20px; 
+  } 
+  .card-header {
+    border-bottom: 1px solid #000046;
+    max-height: 180px;
+    border-right: 0; 
+  }
+}
